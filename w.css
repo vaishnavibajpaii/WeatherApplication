@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Outfit", sans-serif;
+    background:linear-gradient(skyblue, White);
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+    
+  }
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: transparent;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: lightseagreen;
+    border-radius: 16px;
+    border-bottom: 3px solid white;
+  
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+    color: white;
+  }
+  header input:focus {
+    background-color: lightseagreen;
+  }
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .location .city {
+    color:lightseagreen;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .location .date {
+    color: lightseagreen;
+    font-size: 16px;
+  }
+  .current .temp {
+    color:lightseagreen;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0;
+    text-shadow: 2px 8px white;
+  }
+  .current .temp span {
+    font-weight: 200;
+  }
+  .current .weather {
+    color: lightseagreen;
+    font-size: 32px;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 15px;
+    text-shadow: 0 3px white;
+  }
+  .current .hi-low {
+    color:lightseagreen;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0 3px white;
+  }
